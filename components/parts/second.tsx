@@ -32,10 +32,10 @@ export default function Second() {
                         a little bit Vuetify. <br/>
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
-                            <a href="https://github.com/Yefee8/landingpage" target="_blank">
+                            <a href="https://github.com/Yefee8/landingpage" target="_blank" rel="noreferrer">
                                 <Button>Landing Page</Button>
                             </a>
-                            <a href="https://github.com/Yefee8/vue-scroll-load" target="_blank">
+                            <a href="https://github.com/Yefee8/vue-scroll-load" target="_blank" rel="noreferrer">
                                 <Button>Scroll Loader</Button>
                             </a>
                         </div>
@@ -52,13 +52,13 @@ export default function Second() {
                         PrimeReact. <br/>
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
-                            <a href="https://github.com/Yefee8/react-xox" target="_blank">
+                            <a href="https://github.com/Yefee8/react-xox" target="_blank" rel="noreferrer">
                                 <Button>Tic Tac Toe</Button>
                             </a>
-                            <a href="https://github.com/Yefee8/cloud-frontend" target="_blank">
+                            <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
                                 <Button>Yefee Cloud</Button>
                             </a>
-                            <a href="https://stalk.gg" target="_blank">
+                            <a href="https://stalk.gg" target="_blank" rel="noreferrer">
                                 <Button>Stalk.gg</Button>
                             </a>
                         </div>
@@ -73,13 +73,13 @@ export default function Second() {
                         PrimeReact. <br/>
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
-                            <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank">
+                            <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank" rel="noreferrer">
                                 <Button>Infinite Scroller(library)</Button>
                             </a>
-                            <a href="https://github.com/Yefee8/cloud-frontend" target="_blank">
+                            <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
                                 <Button>Yefee Cloud</Button>
                             </a>
-                            <a href="https://github.com/Yefee8/send-mail-api" target="_blank">
+                            <a href="https://github.com/Yefee8/send-mail-api" target="_blank" rel="noreferrer">
                                 <Button>Send Mail API (library)</Button>
                             </a>
                         </div>

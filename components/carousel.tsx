@@ -29,7 +29,7 @@ export default function YCarousel(){
                 <div className="border-1 border-primary rounded mr-1 text-center px-8">
 
                     <div className="mb-3">
-                        <a href={repo.link} target="_blank">
+                        <a href={repo.link} target="_blank" rel="noreferrer">
                             <img src={`${repo.image}`} alt={repo.name} className="w-full h-48" />
                         </a>
                     </div>
