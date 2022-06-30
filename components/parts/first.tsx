@@ -17,6 +17,7 @@ export default function First() {
                 } else {
                     listCount++;
                 }
+                console.log(listCount);
                 setFont(fontList[listCount]);
             }, 750);
             return () => {
