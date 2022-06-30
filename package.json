@@ -10,7 +10,7 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"next": "latest",
+		"next": "^12.2.0",
 		"primeicons": "^5.0.0",
 		"primereact": "^8.1.1",
 		"react": "^17.0.2",
