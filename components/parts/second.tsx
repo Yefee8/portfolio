@@ -66,10 +66,10 @@ export default function Second() {
 
                 <Card title="Node.js" subTitle="" style={{width: '25em'}} header={nodeHeader}>
                     <p className="m-0" style={{lineHeight: '1.5'}}>
-                        I am started to React.js in 2021 Summer, <br/>
-                        React skills: <br/>
-                        Next.js,
-                        PrimeReact. <br/>
+                        I am started to Node.js in 2020 Summer, <br/>
+                        Node skills: <br/>
+                        Multer,
+                        MongoDb. <br/>
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank" rel="noreferrer">
