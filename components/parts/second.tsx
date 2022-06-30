@@ -1,6 +1,5 @@
 import {Card} from "primereact/card";
 import {Button} from "primereact/button";
-import {node} from "prop-types";
 
 export default function Second() {
     const vueHeader = (
@@ -33,10 +32,10 @@ export default function Second() {
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/landingpage" target="_blank" rel="noreferrer">
-                                <Button>Landing Page</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Landing Page</Button>
                             </a>
                             <a href="https://github.com/Yefee8/vue-scroll-load" target="_blank" rel="noreferrer">
-                                <Button>Scroll Loader</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Scroll Loader</Button>
                             </a>
                         </div>
                     </p>
@@ -53,13 +52,13 @@ export default function Second() {
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/react-xox" target="_blank" rel="noreferrer">
-                                <Button>Tic Tac Toe</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Tic Tac Toe</Button>
                             </a>
                             <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
-                                <Button>Yefee Cloud</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Yefee Cloud</Button>
                             </a>
                             <a href="https://stalk.gg" target="_blank" rel="noreferrer">
-                                <Button>Stalk.gg</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Stalk.gg</Button>
                             </a>
                         </div>
                     </p>
@@ -74,13 +73,13 @@ export default function Second() {
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank" rel="noreferrer">
-                                <Button>Infinite Scroller(library)</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Infinite Scroller(library)</Button>
                             </a>
                             <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
-                                <Button>Yefee Cloud</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Yefee Cloud</Button>
                             </a>
                             <a href="https://github.com/Yefee8/send-mail-api" target="_blank" rel="noreferrer">
-                                <Button>Send Mail API (library)</Button>
+                                <Button className="w-48 h-20 flex justify-center items-center">Send Mail API (library)</Button>
                             </a>
                         </div>
                     </p>
