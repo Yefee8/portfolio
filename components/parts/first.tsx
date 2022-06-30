@@ -9,18 +9,20 @@ export default function First() {
     const [font, setFont] = useState("'Shockwave'")
 
     useEffect(() => {
-        const fontChange = setInterval(() => {
-            if (listCount === 5) {
-                // eslint-disable-next-line react-hooks/exhaustive-deps
-                listCount = 0;
-            } else {
-                listCount++;
+        setTimeout(()=>{
+            const fontChange = setInterval(() => {
+                if (listCount === 5) {
+                    // eslint-disable-next-line react-hooks/exhaustive-deps
+                    listCount = 0;
+                } else {
+                    listCount++;
+                }
+                setFont(fontList[listCount]);
+            }, 750);
+            return () => {
+                window.clearInterval(fontChange);
             }
-            setFont(fontList[listCount]);
-        }, 750);
-        return () => {
-            window.clearInterval(fontChange);
-        }
+        },1250)
     }, []);
     return (
         <div>
