@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato&family=M+PLUS+1+Code&family=Smooch&family=Splash&display=swap');
+
+@font-face {
+    font-family: "Shockwave";
+    src: url("Shockwave.otf");
+}
+
+body{
+overflow-x:hidden;
+}
+
+.logo:hover{
+    box-shadow: 5px 10px rgb(99, 102, 241);
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 25px solid rgb(99, 102, 241);
+}
