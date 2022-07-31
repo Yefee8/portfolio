@@ -1,10 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato&family=M+PLUS+1+Code&family=Smooch&family=Splash&display=swap');
-
-@font-face {
-    font-family: "Shockwave";
-    src: url("Shockwave.otf");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato&family=M+PLUS+1+Code&family=Nothing+You+Could+Do&family=Permanent+Marker&family=Press+Start+2P&family=Smooch&family=Splash&display=swap');
 body{
 overflow-x:hidden;
 }

@@ -35,7 +35,7 @@ export default function YCarousel(){
                     </div>
 
                     <div>
-                        <h1 className="mb-1 text-primary text-xl" style={{fontFamily:'Shockwave'}}>{repo.name}</h1>
+                        <h1 className="mb-1 text-primary text-xl" style={{fontFamily:'Nothing You Could Do'}}>{repo.name}</h1>
                         <h4 className="mt-0 mb-3">{repo.description}</h4>
                     </div>
                 </div>

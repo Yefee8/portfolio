@@ -18,7 +18,7 @@ export default function Second() {
 
     return (
         <div className="flex flex-col items-center justify-between mt-24">
-            <h1 className="text-xl md:text-3xl font-bold text-primary" style={{fontFamily: 'Shockwave'}}>Skills</h1>
+            <h1 className="text-xl md:text-3xl font-bold text-primary" style={{fontFamily: 'Nothing You Could Do'}}>skills</h1>
             <div className="cards mt-12 flex justify-around flex-wrap w-full">
                 <Card title="Vue.js" subTitle="" style={{width: '25em'}} header={vueHeader}>
                     <p className="m-0" style={{lineHeight: '1.5'}}>
