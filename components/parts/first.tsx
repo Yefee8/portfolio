@@ -32,7 +32,7 @@ export default function First() {
 
                 <h1 className="text-secondary-dark md:ml-1 text-lg h-16 md:text-2xl lg:text-3xl relative right-10 mt-12 font-semibold">
                     Hi, {"I am"}
-                    <span style={{fontFamily: font}} className="text-primary absolute ml-3">
+                    <span style={{fontFamily: font}} className="text-primary absolute ml-3 transition duration-200">
                         Yefee
                     </span>
                 </h1>
