@@ -85,7 +85,7 @@ export default function Second() {
                         <div className="mt-12 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
-                                        style={{fontSize: '12.5px'}}>infinite Scroller</Button>
+                                        style={{fontSize: '12.5px'}}>infinite scroller</Button>
                             </a>
                             <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
