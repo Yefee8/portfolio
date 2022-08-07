@@ -32,7 +32,7 @@ export default function Second() {
                         Material Ui,
                         a little bit Vuetify. <br/>
                         {/*https://github.com/Yefee8/template-shop*/}
-                        <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
+                        <div className="mt-12 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/landingpage" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
                                         style={{fontSize: '12.5px'}}>landing page</Button>
@@ -58,7 +58,7 @@ export default function Second() {
                         Material Ui &
                         PrimeReact. <br/>
 
-                        <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
+                        <div className="mt-12 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/react-xox" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
                                         style={{fontSize: '12.5px'}}>tic tac toe</Button>
@@ -82,14 +82,14 @@ export default function Second() {
                         Multer,
                         MongoDb. <br/>
 
-                        <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
+                        <div className="mt-12 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
                                         style={{fontSize: '12.5px'}}>infinite Scroller</Button>
                             </a>
                             <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
-                                        style={{fontSize: '12.5px'}}>yefee Cloud</Button>
+                                        style={{fontSize: '12.5px'}}>yefee cloud</Button>
                             </a>
                             <a href="https://github.com/Yefee8/send-mail-api" target="_blank" rel="noreferrer">
                                 <Button className="w-36 h-12 text-md flex justify-center items-center"
@@ -100,7 +100,7 @@ export default function Second() {
                 </Card>
             </div>
 
-            <h1 className="mt-24 text-2xl" style={{fontFamily: 'Nothing You Could Do'}}>and for more, check out my <span className="cursor-pointer" style={{color: '#6366F1'}}>github</span>!</h1>
+            <h1 className="mt-24 text-md md:text-2xl w-full text-center" style={{fontFamily: 'Nothing You Could Do'}}>and for more, check out my <span className="cursor-pointer" style={{color: '#6366F1'}}>github</span>!</h1>
         </div>
     )
 }
