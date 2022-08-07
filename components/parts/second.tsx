@@ -18,8 +18,10 @@ export default function Second() {
 
     return (
         <div className="flex flex-col items-center justify-between mt-24">
-            <h1 className="text-xl md:text-3xl font-bold text-primary" style={{fontFamily: 'Nothing You Could Do'}}>skills</h1>
-            <div className="cards mt-12 flex justify-around flex-wrap w-full">
+            <h1 className="text-xl md:text-3xl font-bold text-primary"
+                style={{fontFamily: 'Nothing You Could Do'}}>skills</h1>
+
+            <div className="cards mt-24 flex justify-around flex-wrap w-full">
                 <Card title="Vue.js" subTitle="" style={{width: '25em'}} header={vueHeader}>
                     <p className="m-0" style={{lineHeight: '1.5'}}>
                         I am started to Vue.js in 2020 winter, <br/>
@@ -29,13 +31,19 @@ export default function Second() {
                         Tailwind,
                         Material Ui,
                         a little bit Vuetify. <br/>
-
+                        {/*https://github.com/Yefee8/template-shop*/}
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/landingpage" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Landing Page</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>landing page</Button>
                             </a>
                             <a href="https://github.com/Yefee8/vue-scroll-load" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Scroll Loader</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>scroll loader</Button>
+                            </a>
+                            <a href="https://github.com/Yefee8/template-shop" target="_blank" rel="noreferrer">
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>template shop</Button>
                             </a>
                         </div>
                     </p>
@@ -52,13 +60,16 @@ export default function Second() {
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/react-xox" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Tic Tac Toe</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>tic tac toe</Button>
                             </a>
                             <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Yefee Cloud</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>yefee cloud</Button>
                             </a>
                             <a href="https://stalk.gg" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Stalk.gg</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>stalk.gg</Button>
                             </a>
                         </div>
                     </p>
@@ -73,18 +84,23 @@ export default function Second() {
 
                         <div className="mt-3 flex-col w-full items-center justify-between gap-y-3 flex wrap">
                             <a href="https://github.com/Yefee8/infinite-scroller-y" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Infinite Scroller(library)</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>infinite Scroller</Button>
                             </a>
                             <a href="https://github.com/Yefee8/cloud-frontend" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Yefee Cloud</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>yefee Cloud</Button>
                             </a>
                             <a href="https://github.com/Yefee8/send-mail-api" target="_blank" rel="noreferrer">
-                                <Button className="w-48 h-20 flex justify-center items-center">Send Mail API (library)</Button>
+                                <Button className="w-36 h-12 text-md flex justify-center items-center"
+                                        style={{fontSize: '12.5px'}}>send mail api</Button>
                             </a>
                         </div>
                     </p>
                 </Card>
             </div>
+
+            <h1 className="mt-24 text-2xl" style={{fontFamily: 'Nothing You Could Do'}}>and for more, check out my <span className="cursor-pointer" style={{color: '#6366F1'}}>github</span>!</h1>
         </div>
     )
 }
