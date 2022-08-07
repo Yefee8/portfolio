@@ -4,19 +4,25 @@ import {Button} from "primereact/button";
 export default function YCarousel(){
     const repos = [
         {
-            name: 'YefeeCloud',
-            description:'A basic cloud made with Node.js & React',
+            name: 'yefee cloud',
+            description:'a basic cloud made with node & react',
             image:'https://cdn.discordapp.com/attachments/921726256481976360/991996923919740949/unknown.png',
             link: 'https://github.com/Yefee8/cloud-frontend'
         },
         {
-            name: 'Landing page',
-            description:'A landing page made with Vue.js',
+            name: 'landing page',
+            description:'a landing page made with vue.js',
             image:'https://cdn.discordapp.com/attachments/921726256481976360/991997801418461224/unknown.png',
             link: 'https://github.com/Yefee8/landingpage'
         },
         {
-            name: 'For more!',
+            name: 'template shop',
+            description:'a shop site template made with nuxt.js',
+            image:'https://cdn.discordapp.com/attachments/921726256481976360/1005848929201574028/unknown.png',
+            link: 'https://github.com/Yefee8/template-shop'
+        },
+        {
+            name: 'for more!',
             description:'Check out my Github account for more!',
             image:'https://i.gadgets360cdn.com/large/github_twitter_full_1570696775252.jpg',
             link: 'https://github.com/Yefee8'
