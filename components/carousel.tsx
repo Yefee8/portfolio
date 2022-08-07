@@ -22,7 +22,7 @@ export default function YCarousel(){
             link: 'https://github.com/Yefee8/template-shop'
         },
         {
-            name: 'For more!',
+            name: 'for more!',
             description:'Check out my Github account for more!',
             image:'https://i.gadgets360cdn.com/large/github_twitter_full_1570696775252.jpg',
             link: 'https://github.com/Yefee8'
