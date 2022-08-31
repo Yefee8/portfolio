@@ -18,7 +18,7 @@ export default function First() {
             }
             setFont(fontList[listCount]);
         },1250)
-    },[font])
+    },[])
     
     return (
         <div>
