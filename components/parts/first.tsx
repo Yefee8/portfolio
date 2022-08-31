@@ -8,19 +8,16 @@ export default function First() {
     let listCount = 0
     const [font, setFont] = useState("'Splash'")
 
-    useEffect(() => {
-        setInterval(() => {
-            if (listCount === 5) {
+    setTimeout(()=>{
+        if (listCount === 5) {
                 // eslint-disable-next-line react-hooks/exhaustive-deps
                 listCount = 0;
             } else {
                 listCount++;
             }
             setFont(fontList[listCount]);
-        }, 1250)
-    }, []);
-
-
+    },1250)
+    
     return (
         <div>
             <div className="flex justify-center items-center w-screen flex-col mt-20">
