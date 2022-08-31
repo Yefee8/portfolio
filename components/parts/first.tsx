@@ -9,7 +9,7 @@ export default function First() {
     const [font, setFont] = useState("'Splash'")
 
     useEffect(()=>{
-        setTimeout(()=>{
+        setInterval(()=>{
             if (listCount === 5) {
                 // eslint-disable-next-line react-hooks/exhaustive-deps
                 listCount = 0;
