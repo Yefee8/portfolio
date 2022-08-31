@@ -8,15 +8,17 @@ export default function First() {
     let listCount = 0
     const [font, setFont] = useState("'Splash'")
 
-    setTimeout(()=>{
-        if (listCount === 5) {
+    useEffect(()=>{
+        setTimeout(()=>{
+            if (listCount === 5) {
                 // eslint-disable-next-line react-hooks/exhaustive-deps
                 listCount = 0;
             } else {
                 listCount++;
             }
             setFont(fontList[listCount]);
-    },1250)
+        },1250)
+    },[font])
     
     return (
         <div>
