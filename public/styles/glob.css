@@ -14,3 +14,6 @@ overflow-x:hidden;
     border-bottom: 20px solid transparent;
     border-left: 25px solid rgb(99, 102, 241);
 }
+.p-button .p-component .p-link{
+    background-color: #883cae !important;    
+}

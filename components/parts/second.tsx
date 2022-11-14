@@ -100,7 +100,7 @@ export default function Second() {
                 </Card>
             </div>
 
-            <h1 className="mt-24 text-md md:text-2xl w-full text-center" style={{fontFamily: 'Nothing You Could Do'}}>and for more, check out my <a href="https://github.com/Yefee8"><span className="cursor-pointer" style={{color: '#6366F1'}}>github</span></a>!</h1>
+            <h1 className="mt-24 text-md md:text-2xl w-full text-center" style={{fontFamily: 'Nothing You Could Do'}}>and for more, check out my <a href="https://github.com/Yefee8"><span className="cursor-pointer text-primary">github</span></a>!</h1>
         </div>
     )
 }

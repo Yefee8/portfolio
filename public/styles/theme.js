@@ -1,6 +1,6 @@
 module.exports = {
 	colors: {
-		primary: '#6366F1',
+		primary: 'rgb(0, 123, 255)',
 		secondary: '#6B7280',
 		danger: '#EF4444',
 		'text-primary':'#f3f3f3',

@@ -4,7 +4,7 @@ import { AppProps } from 'next/app';
 import Head from 'next/head';
 import "../public/styles/glob.css";
 
-import "primereact/resources/themes/md-light-indigo/theme.css";
+import "primereact/resources/themes/bootstrap4-light-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 
