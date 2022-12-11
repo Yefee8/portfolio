@@ -43,7 +43,7 @@ export default function Skills() {
                             Media
                         </a>
 
-                        <a className="font-normal card-title cursor-pointer underline" href="https://media-yefee8.vercel.app/" target="_blank">
+                        <a className="font-normal card-title cursor-pointer underline" href="https://yefee8.github.io/react-xox" target="_blank">
                             react-xox
                         </a>
                     </div>
