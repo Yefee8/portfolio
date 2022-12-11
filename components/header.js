@@ -11,7 +11,7 @@ export default function Header() {
                 </a>
 
                 <a href="https://instagram.com/yefee8">
-                    Instragram
+                    Instagram
                 </a>
 
                 <a href="mailto:findikliyavuzefe@gmail.com">
