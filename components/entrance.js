@@ -1,6 +1,9 @@
+import Header from '../components/header';
+
 export default function Entrance() {
     return (
         <div className="entrance">
+            <Header />
             <h1 className="text-2xl md:text-4xl">
                 Hi, <br />
                 <div className="flex">
