@@ -85,7 +85,7 @@ export default function Skills() {
                 </div>
 
                 <div className="absolute bottom-4 text-xl md:text-2xl">
-                    <h1 className="flex">
+                    <h1 className="flex flex-wrap justify-center">
                         For more check out
 
                         <a className="flex relative text-primary flex-col ml-2 cursor-pointer" href="https://github.com/Yefee8" target="_blank">
