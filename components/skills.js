@@ -39,10 +39,14 @@ export default function Skills() {
                             Stalk.gg
                         </a>
 
-                        <a className="font-normal card-title cursor-pointer underline" href="https://media-yefee8.vercel.app/" target="_blank">
+                        <a className="font-normal card-title cursor-pointer underline" href="https://media-yefee8.vercel.app" target="_blank">
                             Media
                         </a>
 
+                        <a className="font-normal card-title cursor-pointer underline" href="https://parallax-spa.vercel.app" target="_blank">
+                            Parallax Spa
+                        </a>
+        
                         <a className="font-normal card-title cursor-pointer underline" href="https://yefee8.github.io/react-xox" target="_blank">
                             react-xox
                         </a>
