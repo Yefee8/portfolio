@@ -8,7 +8,7 @@ export default function Skills() {
             </h1>
 
             <div className="mt-12 flex flex-wrap justify-center w-full items-center gap-x-6 gap-y-6">
-                <div className="w-64 h-56 md:w-96 md:h-72 p-4 bg-primary rounded-lg flex flex-col items-center">
+                <div className="w-64 h-auto md:w-96 md:h-72 p-4 bg-primary rounded-lg flex flex-col items-center">
                     <h1 className="text-xl card-title md:text-2xl ">
                         React.js
                     </h1>
@@ -53,7 +53,7 @@ export default function Skills() {
                     </div>
                 </div>
 
-                <div className="w-64 h-56 md:w-96 md:h-72 p-4 bg-primary rounded-lg flex flex-col items-center">
+                <div className="w-64 h-auto md:w-96 md:h-72 p-4 bg-primary rounded-lg flex flex-col items-center">
                     <h1 className="text-xl card-title md:text-2xl ">
                         Vue.js
                     </h1>
