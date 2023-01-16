@@ -1,4 +1,60 @@
+import SkillCard from "./skillCard";
 export default function Skills() {
+
+    const allSkills = [
+        {
+            title: 'React.js',
+            tags: [
+                'react native',
+                'next.js',
+                'tailwindcss',
+                'primereact',
+                'material ui',
+                'bootstrap 5'
+            ],
+            projects: [
+                {
+                    title: 'Stalk.gg',
+                    link: 'https://stalk.gg'
+                },
+                {
+                    title: 'Media',
+                    link: 'https://media-yefee8.vercel.app'
+                },
+                {
+                    title: 'Parallax Spa',
+                    link: 'https://parallax-spa.vercel.app'
+                },
+                {
+                    title: 'react-xox',
+                    link: 'https://yefee8.github.io/react-xox'
+                }
+            ]
+        },
+        {
+            title: 'Vue.js',
+            tags: [
+                'nuxt.js',
+                'tailwindcss',
+                'bootstrap 5'
+            ],
+            projects: [
+                {
+                    title: 'request-form',
+                    link: 'https://request-form-template.netlify.app/'
+                },
+                {
+                    title: 'landing page',
+                    link: 'https://yefeelanding.netlify.app/'
+                },
+                {
+                    title: 'template-shop',
+                    link: 'https://yefee-shop.vercel.app/'
+                }
+            ]
+        }
+    ];
+
     return (
         <div className="skills">
 
@@ -8,85 +64,14 @@ export default function Skills() {
             </h1>
 
             <div className="mt-12 flex flex-wrap justify-center w-full items-center gap-x-6 gap-y-6">
-                <div className="w-64 h-auto md:w-96 md:h-72 p-4 bg-primary rounded-lg flex flex-col items-center">
-                    <h1 className="text-xl card-title md:text-2xl ">
-                        React.js
-                    </h1>
 
-                    <div className="flex gap-x-2 gap-y-2 justify-center flex-wrap mt-4 md:mt-8">
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            react native
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            next.js
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            tailwindcss
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            primereact
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            material ui
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            bootstrap 5
-                        </div>
-                    </div>
-
-                    <div className="flex gap-x-2 gap-y-2 justify-center flex-wrap mt-4 md:mt-8">
-                        <a className="font-normal card-title cursor-pointer underline" href="https://stalk.gg" target="_blank">
-                            Stalk.gg
-                        </a>
-
-                        <a className="font-normal card-title cursor-pointer underline" href="https://media-yefee8.vercel.app" target="_blank">
-                            Media
-                        </a>
-
-                        <a className="font-normal card-title cursor-pointer underline" href="https://parallax-spa.vercel.app" target="_blank">
-                            Parallax Spa
-                        </a>
-        
-                        <a className="font-normal card-title cursor-pointer underline" href="https://yefee8.github.io/react-xox" target="_blank">
-                            react-xox
-                        </a>
-                    </div>
-                </div>
-
-                <div className="w-64 h-auto md:w-96 md:h-72 p-4 bg-primary rounded-lg flex flex-col items-center">
-                    <h1 className="text-xl card-title md:text-2xl ">
-                        Vue.js
-                    </h1>
-
-                    <div className="flex gap-x-2 gap-y-2 justify-center flex-wrap mt-4 md:mt-8">
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            nuxt.js
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            tailwindcss
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            primevue
-                        </div>
-                        <div className="rounded-full px-2 py-1 cursor-pointer bg-white text-primary text-sm md:text-md ">
-                            bootstrap 5
-                        </div>
-                    </div>
-
-                    <div className="flex gap-x-2 gap-y-2 justify-center flex-wrap mt-4 md:mt-8">
-                        <a className="font-normal card-title cursor-pointer underline" href="https://request-form-template.netlify.app/" target="_blank">
-                            request-form
-                        </a>
-
-                        <a className="font-normal card-title cursor-pointer underline" href="https://yefeelanding.netlify.app/" target="_blank">
-                            landing page
-                        </a>
-
-                        <a className="font-normal card-title cursor-pointer underline" href="https://yefee-shop.vercel.app/" target="_blank">
-                            template-shop
-                        </a>
-                    </div>
-                </div>
+                {
+                    allSkills.map((skill, index) => {
+                        return (
+                            <SkillCard  key={index} cardProps={skill} />
+                        )
+                    })
+                }
 
                 <div className="absolute bottom-4 text-xl md:text-2xl">
                     <h1 className="flex flex-wrap justify-center">
@@ -95,7 +80,7 @@ export default function Skills() {
                         <a className="flex relative text-primary flex-col ml-2 cursor-pointer" href="https://github.com/Yefee8" target="_blank">
                             my github
                             <span className="absolute w-full bg-primary rounded-full opacity-75 h-1 translate-y-[1.25rem] md:translate-y-[1.4rem] md:h-2"></span>
-                        </a> 
+                        </a>
                     </h1>
                 </div>
             </div>
