@@ -14,6 +14,10 @@ export default function Skills() {
             ],
             projects: [
                 {
+                    title: 'Poebot.xyz',
+                    link: 'https://poebot.xyz'
+                },
+                {
                     title: 'Stalk.gg',
                     link: 'https://stalk.gg'
                 },
