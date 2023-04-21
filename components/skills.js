@@ -56,6 +56,18 @@ export default function Skills() {
                     link: 'https://yefee-shop.vercel.app/'
                 }
             ]
+        },
+        {
+            title: 'Astro.js',
+            tags: [
+                'tailwindcss'
+            ],
+            projects: [
+                {
+                    title: 'rpg-cardball',
+                    link: 'https://rpg-cardball.vercel.app/'
+                }
+            ]
         }
     ];
 
