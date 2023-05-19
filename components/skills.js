@@ -62,12 +62,7 @@ export default function Skills() {
             tags: [
                 'tailwindcss'
             ],
-            projects: [
-                {
-                    title: 'rpg-cardball',
-                    link: 'https://rpg-cardball.vercel.app/'
-                }
-            ]
+            projects: []
         }
     ];
 
