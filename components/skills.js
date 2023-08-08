@@ -44,16 +44,12 @@ export default function Skills() {
             ],
             projects: [
                 {
-                    title: 'request-form',
+                    title: 'Request Form',
                     link: 'https://request-form-template.netlify.app/'
                 },
                 {
-                    title: 'landing page',
+                    title: 'Landing Page',
                     link: 'https://yefeelanding.netlify.app/'
-                },
-                {
-                    title: 'template-shop',
-                    link: 'https://yefee-shop.vercel.app/'
                 }
             ]
         },
