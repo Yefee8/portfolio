@@ -44,12 +44,16 @@ export default function Skills() {
             ],
             projects: [
                 {
-                    title: 'Request Form',
+                    title: 'request-form',
                     link: 'https://request-form-template.netlify.app/'
                 },
                 {
-                    title: 'Landing Page',
+                    title: 'landing page',
                     link: 'https://yefeelanding.netlify.app/'
+                },
+                {
+                    title: 'template-shop',
+                    link: 'https://yefee-shop.vercel.app/'
                 }
             ]
         },
@@ -63,14 +67,13 @@ export default function Skills() {
     ];
 
     return (
-        <div className="skills">
-
+        <div className="relative flex flex-col items-center justify-center">
             <h1 className="text-2xl md:text-4xl flex relative text-primary flex-col mt-24">
                 <span className="absolute w-full bg-primary rounded-full opacity-75 h-1 translate-y-[1.4rem] md:translate-y-7 md:h-2"></span>
-                My Skills & Projects
+                My Skills & Personal Projects
             </h1>
 
-            <div className="mt-12 flex flex-wrap justify-center w-full items-center gap-x-6 gap-y-6">
+            <div className="mt-12 flex flex-wrap justify-center w-full items-center gap-6">
 
                 {
                     allSkills.map((skill, index) => {
@@ -80,16 +83,7 @@ export default function Skills() {
                     })
                 }
 
-                <div className="absolute bottom-4 text-xl md:text-2xl">
-                    <h1 className="flex flex-wrap justify-center">
-                        For more check out
-
-                        <a className="flex relative text-primary flex-col ml-2 cursor-pointer" href="https://github.com/Yefee8" target="_blank">
-                            my github
-                            <span className="absolute w-full bg-primary rounded-full opacity-75 h-1 translate-y-[1.25rem] md:translate-y-[1.4rem] md:h-2"></span>
-                        </a>
-                    </h1>
-                </div>
+                
             </div>
         </div>
     )
