@@ -40,8 +40,8 @@ export default function Projects() {
             </div>
 
             <div className="w-3/4 max-w-[1200px] md:flex-row flex-col items-center lg:w-full bg-primary p-4 rounded-[24px] mt-12 flex gap-4 md:items-start">
-                <a href="https://stalk.gg" target="_blank">
-                    <img src={poebot.src} alt="Yefee's Portfolio ~ Stalk.gg" className="h-48 object-cover object-center cursor-pointer rounded-lg" />
+                <a href="https://poebot.xyz" target="_blank">
+                    <img src={poebot.src} alt="Yefee's Portfolio ~ Poebot.xyz" className="h-48 object-cover object-center cursor-pointer rounded-lg" />
                 </a>
 
                 <div className="h-48 flex justify-between flex-col">
