@@ -10,7 +10,8 @@ export default function Skills() {
                 'tailwindcss',
                 'primereact',
                 'material ui',
-                'bootstrap 5'
+                'bootstrap 5',
+                "mjs"
             ],
             projects: [
                 {
@@ -40,7 +41,8 @@ export default function Skills() {
             tags: [
                 'nuxt.js',
                 'tailwindcss',
-                'bootstrap 5'
+                'bootstrap 5',
+                'mjs'
             ],
             projects: [
                 {
@@ -50,10 +52,6 @@ export default function Skills() {
                 {
                     title: 'landing page',
                     link: 'https://yefeelanding.netlify.app/'
-                },
-                {
-                    title: 'template-shop',
-                    link: 'https://yefee-shop.vercel.app/'
                 }
             ]
         },
@@ -78,7 +76,7 @@ export default function Skills() {
                 {
                     allSkills.map((skill, index) => {
                         return (
-                            <SkillCard  key={index} cardProps={skill} />
+                            <SkillCard key={index} cardProps={skill} />
                         )
                     })
                 }
