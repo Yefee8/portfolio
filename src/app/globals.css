@@ -5,3 +5,16 @@
 body{
   background-color: #F3EEEA;
 }
+
+.changeWidth{
+  animation: changeWidth 0.5s;
+}
+
+@keyframes changeWidth{
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
