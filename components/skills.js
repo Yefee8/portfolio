@@ -11,7 +11,7 @@ export default function Skills() {
                 'primereact',
                 'material ui',
                 'bootstrap 5',
-                "mjs"
+                "msw(mock service worker)"
             ],
             projects: [
                 {
@@ -42,7 +42,7 @@ export default function Skills() {
                 'nuxt.js',
                 'tailwindcss',
                 'bootstrap 5',
-                'mjs'
+                'msw(mock service worker)'
             ],
             projects: [
                 {
