@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
         {children}
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
       </body>
     </html>
   )

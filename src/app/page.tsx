@@ -4,8 +4,12 @@ import "aos/dist/aos.css";
 import { CgScrollV } from "react-icons/cg";
 import { FcBinoculars } from "react-icons/fc";
 import Projects from "@/components/Projects"
+import { useEffect } from "react";
 export default function Home() {
-  AOS.init();
+  
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <main className="flex flex-col pb-24 items-center">
@@ -16,9 +20,9 @@ export default function Home() {
         </h1>
 
         <div className="text-center font-medium flex justify-center items-center flex-col text-black">
-          As I said, I'm Yavuz and I'm a front-end developer who can code express & node apps. <br />
+          As I said, I&apos;m Yavuz and I&apos;m a front-end developer who can code express & node apps. <br />
           <div className="flex gap-1 text-center items-center">
-            So you can say I'm a full-stack <FcBinoculars className="text-xl" />
+            So you can say I&apos;m a full-stack <FcBinoculars className="text-xl" />
           </div>
         </div>
 
