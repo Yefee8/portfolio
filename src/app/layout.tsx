@@ -5,8 +5,9 @@ import './globals.css'
 const poppins = Poppins({ subsets: ['latin'], weight: ["400", "500", "700"] })
 
 export const metadata: Metadata = {
-  title: "Yefee trying to get scholarship...",
-  description: "Hey! I'm Yavuz, I'm trying to get a scholarship with this website and I hope I will!",
+  title: "Yefee ~ Yavuz Efe",
+  description: "Hey! I'm Yavuz(Yefee), A front-end developer who can code node/express apps!",
+  keywords: ["Yefee", "Yefee Portfolio", "Yavuz Efe", "Yavuz Efe Findikli"]
 }
 
 export default function RootLayout({
@@ -16,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        {children}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      </body>
     </html>
   )
 }
