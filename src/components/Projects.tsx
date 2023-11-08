@@ -25,17 +25,17 @@ export default function Projects(){
 
     return(
         <div className="flex justify-center gap-8 flex-col items-center container h-full">
-        <h1 className="text-3xl text-primary font-bold flex justify-start relative gap-1">
+        <h1 className="text-3xl text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
           I&apos;ve coded on these projects
-          <div className="w-full h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
+          <div className="sm:w-full w-4/5 h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
         </h1>
 
         <div className="w-full flex gap-x-64 gap-y-12 flex-wrap justify-center">
           {
             projects.map((project, index) => {
               return (
-                <div key={index} className={`w-1/3 flex justify-center ${!!(index & 1) && "mt-64"}`}>
-                  <div className="w-96 h-[375px] rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border-[1.75px] items-center flex flex-col gap-4"
+                <div key={index} className={`md:w-1/3 flex justify-center ${!!(index & 1) && "mt-64"}`}>
+                  <div className="sm:w-96 w-3/4 h-[375px] rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border-[1.75px] items-center flex flex-col gap-4"
                     data-aos="fade-up">
                     <img src={project.image} className="w-full border-4 border-transparent group-hover:border-primary duration-200 rounded-2xl h-48 object-cover object-center" alt="" />
                     <div className="w-full flex flex-col">
@@ -49,7 +49,7 @@ export default function Projects(){
                         {
                           project.tags.map((tag) => {
                             return (
-                              <span key={index} className="px-2 text-white py-1 font-medium text-xs bg-primary group-hover:bg-second-primary duration-200 rounded-full">
+                              <span key={index} className="px-2 text-white py-1 font-medium sm:text-xs text-[10px] bg-primary group-hover:bg-second-primary duration-200 rounded-full">
                                 #{tag}
                               </span>
                             )
