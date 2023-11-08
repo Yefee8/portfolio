@@ -35,7 +35,7 @@ export default function Projects(){
             projects.map((project, index) => {
               return (
                 <div key={index} className={`w-1/3 flex justify-center ${!!(index & 1) && "mt-64"}`}>
-                  <div className="w-96 h-[375px] rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border items-center flex flex-col gap-4"
+                  <div className="w-96 h-[375px] rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border-[1.75px] items-center flex flex-col gap-4"
                     data-aos="fade-up">
                     <img src={project.image} className="w-full border-4 border-transparent group-hover:border-primary duration-200 rounded-2xl h-48 object-cover object-center" alt="" />
                     <div className="w-full flex flex-col">
