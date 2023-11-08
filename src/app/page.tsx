@@ -1,18 +1,22 @@
 "use client"
+import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { CgScrollV } from "react-icons/cg";
 import { FcBinoculars } from "react-icons/fc";
-import Projects from "@/components/Projects"
+import Projects from "@/components/Projects";
+import Repostories from "@/components/Repostories";
+import Skills from "@/components/Skills";
+
 import { useEffect } from "react";
 export default function Home() {
-  
+
   useEffect(() => {
     AOS.init();
   }, [])
 
   return (
-    <main className="flex flex-col pb-24 items-center">
+    <main className="flex flex-col pb-4 items-center">
       <div className="flex justify-center gap-4 flex-col items-center w-full h-screen container">
         <h1 className="text-3xl text-primary font-bold flex justify-start relative">
           Hey, I&apos;m Yavuz!
@@ -32,6 +36,20 @@ export default function Home() {
       </div>
 
       <Projects />
+
+      <Repostories />
+
+      <Skills />
+
+      <div className="text-3xl text-black rounded-3xl p-8 font-bold flex gap-2 mt-36">
+        If you want to work with me, you can reach me from:
+        <Link href="discord.gg/users/420291800905940992">
+          <div className="text-primary relative !cursor-pointer">
+            Discord
+            <div className="w-full h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
+          </div>
+        </Link>
+      </div>
     </main>
   )
 }
