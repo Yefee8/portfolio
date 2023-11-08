@@ -41,7 +41,7 @@ export default function Home() {
 
       <Skills />
 
-      <div className="text-3xl text-black rounded-3xl p-8 font-bold flex gap-2 mt-36">
+      <div className="text-3xl text-black rounded-3xl p-8 font-bold items-center flex gap-2 mt-36">
         If you want to work with me, you can reach me from:
         <Link href="discord.gg/users/420291800905940992">
           <div className="text-primary relative !cursor-pointer">

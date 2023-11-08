@@ -41,7 +41,6 @@ export default function Skills() {
                     projects.map((project, index) => {
                         return (
                             <>
-
                                 <div key={index}
                                     className={`md:w-1/3 flex justify-center ${!!(index & 1) && "md:mt-64"}`} data-aos={!!(index & 1) ? "fade-right" : "fade-left"}>
                                     <div className="sm:w-96 border-transparent border-4 !duration-200 hover:border-second-primary w-3/4 rounded-3xl cursor-pointer bg-primary p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
