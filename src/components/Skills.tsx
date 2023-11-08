@@ -54,7 +54,7 @@ export default function Skills() {
                                             {
                                                 project.tags.map((tag) => {
                                                     return (
-                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-xs bg-second-primary duration-200 rounded-full">
+                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] bg-second-primary duration-200 rounded-full">
                                                             #{tag}
                                                         </span>
                                                     )
