@@ -5,7 +5,7 @@ export default function Projects(){
     const projects = [
         {
           title: "Stalk.gg",
-          tags: ["React.js", "Next.js", "Vue.js", "Tailwindcss", "Material Ui", "ShadcnUi"],
+          tags: ["React.js", "Next.js", "Vue.js", "Tailwindcss", "Material Ui", "ShadcnUi", "SWR"],
           image: "https://yefees-portfolio.vercel.app/_next/static/media/stalkgg.8957f7a8.png",
           role: "front-end developer"
         },
@@ -19,7 +19,7 @@ export default function Projects(){
           title: "Private Project (for now)",
           tags: ["React.js", "Next.js", "Tailwindcss", "ShadcnUi", "MSW (Mock Service Worker)"],
           image: "https://placehold.co/350x192/7752FE/fff",
-          role: "front-end developer"
+          role: "front-end lead"
         },
       ];
 
@@ -30,7 +30,7 @@ export default function Projects(){
           <div className="w-full h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
         </h1>
 
-        <div className="w-full flex gap-64 flex-wrap justify-center">
+        <div className="w-full flex gap-x-64 gap-y-12 flex-wrap justify-center">
           {
             projects.map((project, index) => {
               return (
