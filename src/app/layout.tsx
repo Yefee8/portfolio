@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { GeistSans } from "geist/font";
 import './globals.css'
-
-const poppins = Poppins({ subsets: ['latin'], weight: ["400", "500", "700"] })
 
 export const metadata: Metadata = {
   title: "Yefee ~ Yavuz Efe",
@@ -17,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={GeistSans.className}>
         {children}
         <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
       </body>
