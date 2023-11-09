@@ -43,7 +43,7 @@ export default function Home() {
 
       <div className="text-3xl text-black rounded-3xl p-8 font-bold items-center flex gap-2 mt-36">
         If you want to work with me, you can reach me from:
-        <Link href="https://discord.gg/users/420291800905940992">
+        <Link href="https://discord.com/users/420291800905940992">
           <div className="text-primary relative !cursor-pointer">
             Discord
             <div className="w-full h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
