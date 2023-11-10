@@ -60,7 +60,7 @@ export default function Projects() {
                         {
                           project.tags.map((tag) => {
                             return (
-                              <span key={index} className="px-2 text-white py-1 font-medium sm:text-xs text-[10px] bg-primary/50 group-hover:bg-second-primary/50 duration-200 rounded-full">
+                              <span key={index} className="px-2 text-white py-1 font-medium sm:text-xs text-[10px] bg-primary/70 group-hover:bg-second-primary/70 duration-200 rounded-full">
                               {tag}
                               </span>
                             )
