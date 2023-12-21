@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Projects() {
   const projects = [
     {
-      title: "Stalk.gg",
+      title: "Stalk.gg ~ Closed :(",
       tags: ["React.js", "Next.js", "Vue.js", "Tailwindcss", "Material Ui", "ShadcnUi", "SWR"],
       image: Stalk,
       role: "front-end developer",
