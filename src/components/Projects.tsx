@@ -2,6 +2,7 @@ import Image from "next/image";
 import Stalk from "@/../public/projects/stalkgg.png";
 import Poe from "@/../public/projects/poebot.png";
 import Geniusula from "@/../public/projects/geniusula.png";
+import UseAlarm from "@/../public/projects/usealarm.png";
 import Link from "next/link";
 
 export default function Projects() {
@@ -20,6 +21,18 @@ export default function Projects() {
       image: Stalk,
       role: "front-end developer",
       link: "https://stalk.gg",
+    },
+    {
+      title: "UseAlarm",
+      tags: [
+        "React.js",
+        "Next.js",
+        "PrimeReact",
+        "Primeflex"
+      ],
+      image: UseAlarm,
+      role: "site and backend made by entirely me",
+      link: "https://use-alarm.vercel.app",
     },
     {
       title: "Poebot.xyz",
