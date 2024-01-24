@@ -85,7 +85,7 @@ export default function Projects() {
                 target="_blank"
               >
                 <div
-                  className="sm:w-96 w-3/4 rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border-[1.75px] items-center flex flex-col gap-4"
+                  className="sm:w-96 w-3/4 rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border-[2.5px] items-center flex flex-col gap-4"
                   data-aos={!!(index & 1) ? "fade-down" : "fade-up"}
                 >
                   {typeof project.image !== "string" ? (
