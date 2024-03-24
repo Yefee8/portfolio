@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Stalk from "@/../public/projects/stalkgg.png";
 import Poe from "@/../public/projects/poebot.png";
+import Laflaneur from "@/../public/projects/laflaneur.png";
 import Geniusula from "@/../public/projects/geniusula.png";
 import UseAlarm from "@/../public/projects/usealarm.png";
 import Link from "next/link";
@@ -33,6 +34,17 @@ export default function Projects() {
       image: UseAlarm,
       role: "site and backend made by entirely me",
       link: "https://use-alarm.vercel.app",
+    },
+    {
+      title: "Laflaneur.com",
+      tags: [
+        "React.js",
+        "Next.js",
+        "Tailwindcss"
+      ],
+      image: Laflaneur,
+      role: "site and design made by entirely me",
+      link: "https://laflaneur.com",
     },
     {
       title: "Poebot.xyz",
