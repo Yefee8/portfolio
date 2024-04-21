@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Projects() {
   const projects = [
     {
-      title: "Stalk.gg ~ Closed :(",
+      title: "Stalk.live",
       tags: [
         "React.js",
         "Next.js",
@@ -21,7 +21,7 @@ export default function Projects() {
       ],
       image: Stalk,
       role: "front-end developer",
-      link: "https://stalk.gg",
+      link: "https://stalk.live",
     },
     {
       title: "UseAlarm",
