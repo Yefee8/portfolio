@@ -4,6 +4,7 @@ import Poe from "@/../public/projects/poebot.png";
 import Laflaneur from "@/../public/projects/laflaneur.png";
 import Geniusula from "@/../public/projects/geniusula.png";
 import UseAlarm from "@/../public/projects/usealarm.png";
+import AccountHolder from "@/../public/projects/account-holder.png";
 import Link from "next/link";
 
 export default function Projects() {
@@ -45,6 +46,17 @@ export default function Projects() {
       image: Laflaneur,
       role: "site and design made by entirely me",
       link: "https://laflaneur.com",
+    },
+    {
+      title: "Account Holder",
+      tags: [
+        "React.js",
+        "Tauri",
+        "Tailwindcss"
+      ],
+      image: AccountHolder,
+      role: "App and design made by entirely me",
+      link: "https://github.com/Yefee8/Account-Holder/releases",
     },
     {
       title: "Poebot.xyz",
