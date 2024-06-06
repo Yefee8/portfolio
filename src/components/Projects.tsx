@@ -26,34 +26,21 @@ export default function Projects() {
     },
     {
       title: "UseAlarm",
-      tags: [
-        "React.js",
-        "Next.js",
-        "PrimeReact",
-        "Primeflex"
-      ],
+      tags: ["React.js", "Next.js", "PrimeReact", "Primeflex"],
       image: UseAlarm,
       role: "site and backend made by entirely me",
       link: "https://use-alarm.vercel.app",
     },
     {
       title: "Laflaneur.com",
-      tags: [
-        "React.js",
-        "Next.js",
-        "Tailwindcss"
-      ],
+      tags: ["React.js", "Next.js", "Tailwindcss"],
       image: Laflaneur,
       role: "site and design made by entirely me",
       link: "https://laflaneur.com",
     },
     {
       title: "Account Holder",
-      tags: [
-        "React.js",
-        "Tauri",
-        "Tailwindcss"
-      ],
+      tags: ["React.js", "Tauri", "Tailwindcss"],
       image: AccountHolder,
       role: "App and design made by entirely me",
       link: "https://github.com/Yefee8/Account-Holder/releases",
@@ -89,7 +76,7 @@ export default function Projects() {
 
   return (
     <div className="flex justify-center gap-8 flex-col items-center container">
-      <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
+      <h1 className="text-3xl mt-16 dark:text-white text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
         I&apos;ve coded on these projects
         <div className="sm:w-full w-4/5 h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
       </h1>
@@ -104,13 +91,13 @@ export default function Projects() {
               }`}
             >
               <Link
-                href={project.link}
                 className="justify-center flex w-full"
+                href={project.link}
                 target="_blank"
               >
                 <div
-                  className="sm:w-96 w-3/4 rounded-3xl border-black duration-500 group cursor-pointer hover:border-primary p-4 border-[2.5px] items-center flex flex-col gap-4"
-                  data-aos={!!(index & 1) ? "fade-down" : "fade-up"}
+                  className="sm:w-96 w-3/4 rounded-3xl border-black duration-500 group cursor-pointer hover:border-purple-500 !p-4 border-[2.5px] items-center flex flex-col gap-4"
+                  data-aos={!!(index & 1) ? "fade-right" : "fade-left"}
                 >
                   {typeof project.image !== "string" ? (
                     <Image
@@ -124,24 +111,19 @@ export default function Projects() {
                       className="w-full border-4 border-transparent group-hover:border-primary duration-200 rounded-2xl h-48 object-cover object-center"
                       alt=""
                     />
-                  )}
+                  )}{" "}
                   <div className="w-full flex flex-col">
-                    <h1 className="font-bold light:text-black group-hover:text-primary duration-200 text-xl">
+                    <h1 className="font-bold dark:text-white text-black dark:group-hover:text-orange-500 group-hover:text-primary duration-200 text-xl">
                       {project.title}
                     </h1>
-                    <p className="font-medium text-base light:text-black group-hover:text-primary duration-200 flex gap-1">
-                      Role:
-                      <span className="group-hover:text-second-primary font-medium duration-200 text-primary">
-                        {project.role}
-                      </span>
-                    </p>
+                   
 
                     <div className="flex-wrap gap-1 flex mt-4 items-center justify-start">
                       {project.tags.map((tag) => {
                         return (
                           <span
                             key={index}
-                            className="px-2 light:text-white py-1 text-black font-medium sm:text-xs text-[10px] bg-primary/70 group-hover:bg-second-primary/70 duration-200 rounded-full"
+                            className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 dark:bg-[rgba(255,145,48,.7)] duration-200 rounded-full"
                           >
                             {tag}
                           </span>
