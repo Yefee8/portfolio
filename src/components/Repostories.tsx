@@ -67,7 +67,7 @@ export default function Repostories() {
                         return (
                             <div key={index} className={`md:w-1/3 flex justify-center ${!!(index & 1) && "md:mt-64"}`}>
                                 <Link className="justify-center flex w-full" href={repo.link} target="_blank">
-                                    <div className="sm:w-96 w-3/4 rounded-3xl border-black duration-500 group cursor-pointer hover:border-purple-500 !p-4 border-[2.5px] items-center flex flex-col gap-4"
+                                    <div className="sm:w-96 w-3/4 rounded-3xl border-purple-500/50 duration-500 group cursor-pointer hover:border-purple-500 !p-4 border-[2.5px] items-center flex flex-col gap-4"
                                         data-aos={!!(index & 1) ? "fade-right" : "fade-left"}>
                                         {
                                             typeof repo.image !== "string" ?
