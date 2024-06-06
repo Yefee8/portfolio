@@ -24,7 +24,7 @@ export default function Skills() {
 
     return (
         <div className="flex justify-center gap-8 flex-col items-center container h-full">
-            <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
+            <h1 className="text-3xl mt-16 text-primary dark:text-white text-center font-bold flex sm:justify-start justify-center relative gap-1">
                 My Skills
                 <div className="sm:w-full w-4/5 h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
             </h1>
@@ -36,7 +36,7 @@ export default function Skills() {
                             <>
                                 <div key={index}
                                     className={`md:w-1/3 flex justify-center ${!!(index & 1) && "md:mt-48"}`} data-aos={!!(index & 1) ? "fade-right" : "fade-left"}>
-                                    <div className="sm:w-96 border-transparent border-4 !duration-200 hover:border-yellow-500 w-3/4 rounded-3xl cursor-pointer bg-primary dark:bg-purple-500 p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
+                                    <div className="sm:w-96 border-transparent border-4 !duration-200 hover:border-[rgba(255,145,48,.7)] w-3/4 rounded-3xl cursor-pointer bg-primary p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
                                         <h1 className="font-bold text-white duration-200 text-2xl">{project.title}</h1>
 
                                         <p className="font-medium text-lg mt-2 text-white duration-200 flex gap-1">
@@ -47,7 +47,7 @@ export default function Skills() {
                                             {
                                                 project.tags.map((tag) => {
                                                     return (
-                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 dark:bg-orange-500 duration-200 rounded-full">
+                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 dark:bg-[rgba(255,145,48,.7)] duration-200 rounded-full">
                                                             {tag}
                                                         </span>
                                                     )
