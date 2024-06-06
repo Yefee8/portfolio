@@ -21,19 +21,19 @@ export default function Home() {
     <main className="flex flex-col pb-4 items-center">
       <Nav/>
       <div className="flex justify-center gap-4 flex-col items-center w-full h-screen container">
-        <h1 className="text-3xl text-primary font-bold flex justify-start relative">
+        <h1 className="text-3xl text-primary font-bold flex justify-start relative  dark:text-white">
           Hey, I&apos;m Yavuz!
           <div className="w-full h-2 changeWidth bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
         </h1>
 
-        <div className="text-center font-medium flex justify-center items-center flex-col light:text-black">
+        <div className="text-center font-medium flex dark:text-white justify-center items-center flex-col light:text-black">
           As I said, I&apos;m Yavuz and I&apos;m a front-end developer who can code express & node apps. <br />
           <div className="flex gap-1 text-center items-center">
             So you can say I&apos;m a full-stack <FcBinoculars className="text-xl" />
           </div>
         </div>
 
-        <div className="absolute bottom-8 flex gap-2 text-base items-center font-bold text-primary justify-center">
+        <div className="absolute bottom-8 flex gap-2 text-base dark:text-yellow-500 items-center font-bold text-primary justify-center">
           <CgScrollV className="text-xl animate-bounce" />  Scroll Down For More
         </div>
       </div>
