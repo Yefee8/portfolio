@@ -24,7 +24,7 @@ export default function Home() {
           <div className="w-full h-2 changeWidth bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
         </h1>
 
-        <div className="text-center font-medium flex justify-center items-center flex-col text-black">
+        <div className="text-center font-medium flex justify-center items-center flex-col light:text-black">
           As I said, I&apos;m Yavuz and I&apos;m a front-end developer who can code express & node apps. <br />
           <div className="flex gap-1 text-center items-center">
             So you can say I&apos;m a full-stack <FcBinoculars className="text-xl" />

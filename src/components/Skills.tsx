@@ -36,7 +36,7 @@ export default function Skills() {
                             <>
                                 <div key={index}
                                     className={`md:w-1/3 flex justify-center ${!!(index & 1) && "md:mt-48"}`} data-aos={!!(index & 1) ? "fade-right" : "fade-left"}>
-                                    <div className="sm:w-96 border-transparent border-4 !duration-200 hover:border-second-primary w-3/4 rounded-3xl cursor-pointer bg-primary p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
+                                    <div className="sm:w-96 border-transparent border-4 !duration-200 hover:border-yellow-500 w-3/4 rounded-3xl cursor-pointer bg-primary dark:bg-purple-500 p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
                                         <h1 className="font-bold text-white duration-200 text-2xl">{project.title}</h1>
 
                                         <p className="font-medium text-lg mt-2 text-white duration-200 flex gap-1">
@@ -47,7 +47,7 @@ export default function Skills() {
                                             {
                                                 project.tags.map((tag) => {
                                                     return (
-                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 duration-200 rounded-full">
+                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 dark:bg-orange-500 duration-200 rounded-full">
                                                             {tag}
                                                         </span>
                                                     )
