@@ -56,7 +56,7 @@ export default function Repostories() {
 
     return (
         <div className="flex justify-center gap-8 flex-col items-center container">
-            <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
+            <h1 className="text-3xl mt-16 dark:text-white text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
                 My Favorite Repostories
                 <div className="sm:w-full w-4/5 h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
             </h1>
@@ -75,8 +75,8 @@ export default function Repostories() {
                                                 :
                                                 <img src={repo.image} className="w-full border-4 border-transparent group-hover:border-primary duration-200 rounded-2xl h-48 object-cover object-center" alt="" />
                                         }                                        <div className="w-full flex flex-col">
-                                            <h1 className="font-bold dark:text-white text-black group-hover:text-primary duration-200 text-xl">{repo.title}</h1>
-                                            <p className="font-medium text-base group-hover:text-second-primary text-primary duration-200 flex gap-1">
+                                            <h1 className="font-bold dark:text-white text-black dark:group-hover:text-orange-500 group-hover:text-primary duration-200 text-xl">{repo.title}</h1>
+                                            <p className="font-medium text-base group-hover:text-second-primary dark:text-white text black duration-200 flex gap-1">
                                                 {repo.description}
                                             </p>
 
@@ -84,7 +84,7 @@ export default function Repostories() {
                                                 {
                                                     repo.tags.map((tag) => {
                                                         return (
-                                                            <span key={index} className="px-2 text-black py-1 font-medium sm:text-xs text-[10px] bg-primary/70 group-hover:bg-second-primary/70 duration-200 rounded-full">
+                                                            <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 dark:bg-[rgba(255,145,48,.7)] duration-200 rounded-full">
                                                                 {tag}
                                                             </span>
                                                         )
