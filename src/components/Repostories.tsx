@@ -84,7 +84,7 @@ export default function Repostories() {
                                                 {
                                                     repo.tags.map((tag) => {
                                                         return (
-                                                            <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 dark:bg-[rgba(255,145,48,.7)] duration-200 rounded-full">
+                                                            <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative  bg-[rgba(255,145,48,1)] duration-200 rounded-full">
                                                                 {tag}
                                                             </span>
                                                         )
