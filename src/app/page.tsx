@@ -9,6 +9,7 @@ import Repostories from "@/components/Repostories";
 import Skills from "@/components/Skills";
 
 import { useEffect } from "react";
+import { ModeToggle } from "@/components/Toggle";
 export default function Home() {
 
   useEffect(() => {
@@ -28,6 +29,7 @@ export default function Home() {
           <div className="flex gap-1 text-center items-center">
             So you can say I&apos;m a full-stack <FcBinoculars className="text-xl" />
           </div>
+          <ModeToggle/>
         </div>
 
         <div className="absolute bottom-8 flex gap-2 text-base items-center font-bold text-primary justify-center">
