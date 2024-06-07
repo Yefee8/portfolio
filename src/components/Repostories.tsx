@@ -98,7 +98,7 @@ export default function Repostories() {
                     />
                   )}{" "}
                   <div className="w-full flex flex-col">
-                    <h1 className="font-bold text-black group-hover:text-primary duration-200 text-xl">
+                    <h1 className="font-bold text-black duration-200 text-xl">
                       {repo.title}
                     </h1>
                     <p className="font-medium text-base group-hover:text-black text-primary duration-200 flex gap-1">

@@ -126,7 +126,7 @@ export default function Projects() {
                     />
                   )}
                   <div className="w-full flex flex-col">
-                    <h1 className="font-bold text-black group-hover:text-primary duration-200 text-xl">
+                    <h1 className="font-bold text-black duration-200 text-xl">
                       {project.title}
                     </h1>
                     <p className="font-medium text-base text-black group-hover:text-primary duration-200 flex gap-1">
