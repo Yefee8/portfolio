@@ -5,7 +5,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: "Yefee ~ Yavuz Efe",
   description: "Hey! I'm Yavuz(Yefee), A front-end developer who can code node/express apps!",
-  keywords: ["Yefee", "Yefee Portfolio", "Yavuz Efe", "Yavuz Efe Findikli"]
+  keywords: ["Yefee", "Yefee Portfolio", "Yavuz Efe", "Yavuz Efe Findikli", "Yefee8 Portfolio", "Yefee's Portfolio", "Yefee github", "Yefee8", "Yefee Portfolio", "Portfolio"]
 }
 
 export default function RootLayout({

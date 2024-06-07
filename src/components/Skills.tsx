@@ -11,7 +11,7 @@ export default function Skills() {
             description: "I have been working with Vue for more than two years. It was my first front-end technology, and I love Vue!"
         },
         {
-            title: "Pure Techs",
+            title: "Pure/Native Techs",
             tags: ["HTML5", "CSS3", "Tailwindcss", "MSW(Mock Service Worker)", "Javascript", "Typescript"],
             description: "Title is Enough I think."
         },
@@ -36,10 +36,10 @@ export default function Skills() {
                             <>
                                 <div key={index}
                                     className={`md:w-1/3 flex justify-center ${!!(index & 1) && "md:mt-48"}`} data-aos={!!(index & 1) ? "fade-right" : "fade-left"}>
-                                    <div className="sm:w-96 border-transparent border-4 !duration-200 hover:border-second-primary w-3/4 rounded-3xl cursor-pointer bg-primary p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
-                                        <h1 className="font-bold text-white duration-200 text-2xl">{project.title}</h1>
+                                    <div className="sm:w-96 border-transparent border-4 group !duration-200 hover:border-primary w-3/4 rounded-3xl cursor-pointer bg-white shadow-xl p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
+                                        <h1 className="font-bold text-black duration-200 text-2xl">{project.title}</h1>
 
-                                        <p className="font-medium text-lg mt-2 text-white duration-200 flex gap-1">
+                                        <p className="font-medium text-lg mt-2 text-black duration-200 flex gap-1">
                                             {project.description}
                                         </p>
 
@@ -47,7 +47,7 @@ export default function Skills() {
                                             {
                                                 project.tags.map((tag) => {
                                                     return (
-                                                        <span key={index} className="px-2 text-white py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 duration-200 rounded-full">
+                                                        <span key={index} className="px-2 text-black group-hover:bg-primary/50 py-1 font-medium sm:text-sm text-[10px] relative bg-second-primary/70 duration-200 rounded-full">
                                                             {tag}
                                                         </span>
                                                     )
