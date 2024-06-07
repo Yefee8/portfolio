@@ -3,22 +3,22 @@ export default function Skills() {
         {
             title: "React.js",
             tags: ["Next.js 14", "MSW(Mock Service Worker)", "i18n", "Tailwindcss", "Material Ui", "Typescript"],
-            description: "I have been working with React for more than a year and have experience with various technologies. I love React!"
+            description: "I have been working with React about two years and I have a lot of experience with various technologies. It's the technology at which I'm best!"
         },
         {
             title: "Vue.js",
             tags: ["Nuxt.js 3", "MSW(Mock Service Worker)", "i18n", "Tailwindcss", "Typescript"],
-            description: "I have been working with Vue for more than two years. It was my first front-end technology, and I love Vue!"
+            description: "I have been working with Vue for more than three years. It was my first front-end technology. I don't use it I can't say I've used it much lately, but I occasionally develop projects with Vue.js."
         },
         {
             title: "Pure/Native Techs",
             tags: ["HTML5", "CSS3", "Tailwindcss", "MSW(Mock Service Worker)", "Javascript", "Typescript"],
-            description: "Title is Enough I think."
+            description: "The title is Enough I think."
         },
         {
             title: "Node.js",
             tags: ["Express.js", "MongoDB", "Multer"],
-            description: "To be honest, I'm not very experienced in Node.js, but I have developed a few projects with it. I can code Node.js apps by looking up information online.",
+            description: "I'm not experienced in Node.js, but I have developed a few projects with it. I guess I can code some APIs with Node.js!",
         },
     ];
 
