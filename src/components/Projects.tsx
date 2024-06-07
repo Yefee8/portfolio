@@ -131,7 +131,7 @@ export default function Projects() {
                     </h1>
                     <p className="font-medium text-base text-black group-hover:text-primary duration-200 flex gap-1">
                       Role:
-                      <span className="group-hover:text-second-primary font-medium duration-200 text-primary">
+                      <span className="group-hover:text-black font-medium duration-200 text-primary">
                         {project.role}
                       </span>
                     </p>
@@ -141,7 +141,7 @@ export default function Projects() {
                         return (
                           <span
                             key={index}
-                            className="px-2 text-white py-1 font-medium sm:text-xs text-[10px] bg-primary/70 group-hover:bg-second-primary/70 duration-200 rounded-full"
+                            className="px-2 text-white py-1 font-medium sm:text-xs text-[10px] bg-primary/70 group-hover:bg-primary duration-200 rounded-full"
                           >
                             {tag}
                           </span>

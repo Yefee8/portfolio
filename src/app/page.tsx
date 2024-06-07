@@ -1,19 +1,21 @@
-"use client"
+"use client";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { CgScrollV } from "react-icons/cg";
 import { FcBinoculars } from "react-icons/fc";
+import { IoMdMail } from "react-icons/io";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
+
 import Projects from "@/components/Projects";
 import Repostories from "@/components/Repostories";
 import Skills from "@/components/Skills";
 
 import { useEffect } from "react";
 export default function Home() {
-
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
 
   return (
     <main className="flex flex-col pb-4 items-center">
@@ -24,14 +26,28 @@ export default function Home() {
         </h1>
 
         <div className="text-center font-medium flex justify-center items-center flex-col text-black">
-          As I said, I&apos;m Yavuz and I&apos;m a front-end developer who can code express & node apps. <br />
+          As I said, I&apos;m Yavuz and I&apos;m a front-end developer who can
+          code express & node apps. <br />
           <div className="flex gap-1 text-center items-center">
-            So you can say I&apos;m a full-stack <FcBinoculars className="text-xl" />
+            So you can say I&apos;m a full-stack{" "}
+            <FcBinoculars className="text-xl" />
           </div>
         </div>
 
+        <div className="flex gap-2 items-center">
+          <a href="https://www.linkedin.com/in/yavuz-efe-f%C4%B1nd%C4%B1kl%C4%B1-ab214621a/" target="_blank">
+            <FaLinkedin className="text-2xl duration-100 cursor-pointer hover:text-primary focus:text-primary outline-primary" />
+          </a>
+          <a href="https://github.com/Yefee8" target="_blank">
+            <FaGithub className="text-2xl duration-100 cursor-pointer hover:text-primary focus:text-primary outline-primary" />
+          </a>
+          <a href="mailto:findikliyavuzefe@gmail.com" target="_blank">
+            <IoMdMail className="text-2xl duration-100 cursor-pointer hover:text-primary focus:text-primary outline-primary" />
+          </a>
+        </div>
+
         <div className="absolute bottom-8 flex gap-2 text-base items-center font-bold text-primary justify-center">
-          <CgScrollV className="text-xl animate-bounce" />  Scroll Down For More
+          <CgScrollV className="text-xl animate-bounce" /> Scroll Down For More
         </div>
       </div>
 
@@ -51,5 +67,5 @@ export default function Home() {
         </Link>
       </div>
     </main>
-  )
+  );
 }
