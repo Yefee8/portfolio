@@ -36,7 +36,7 @@ export default function Skills() {
                             <>
                                 <div key={index}
                                     className={`md:w-1/3 flex justify-center ${!!(index & 1) && "md:mt-48"}`} data-aos={!!(index & 1) ? "fade-right" : "fade-left"}>
-                                    <div className="sm:w-96 border-transparent border-4 group !duration-200 hover:border-primary w-3/4 rounded-3xl cursor-pointer bg-white shadow-xl p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
+                                    <div className="sm:w-96 border-transparent border-4 group !duration-200 hover:border-primary w-3/4 rounded-3xl cursor-pointer shadow-xl p-8 items-center flex flex-col gap-4">                                    <div className="w-full flex flex-col">
                                         <h1 className="font-bold text-black duration-200 text-2xl">{project.title}</h1>
 
                                         <p className="font-medium text-lg mt-2 text-black duration-200 flex gap-1">
