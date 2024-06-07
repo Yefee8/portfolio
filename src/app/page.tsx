@@ -1,7 +1,5 @@
-"use client";
 import Link from "next/link";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 import { CgScrollV } from "react-icons/cg";
 import { FcBinoculars } from "react-icons/fc";
 import { IoMdMail } from "react-icons/io";
@@ -10,13 +8,9 @@ import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import Projects from "@/components/Projects";
 import Repostories from "@/components/Repostories";
 import Skills from "@/components/Skills";
+import UseAos from "@/components/UseAos";
 
-import { useEffect } from "react";
 export default function Home() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <main className="flex flex-col pb-4 items-center">
       <div className="flex justify-center gap-4 flex-col items-center w-full h-screen container">
@@ -35,7 +29,10 @@ export default function Home() {
         </div>
 
         <div className="flex gap-2 items-center">
-          <a href="https://www.linkedin.com/in/yavuz-efe-f%C4%B1nd%C4%B1kl%C4%B1-ab214621a/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/yavuz-efe-f%C4%B1nd%C4%B1kl%C4%B1-ab214621a/"
+            target="_blank"
+          >
             <FaLinkedin className="text-2xl duration-100 cursor-pointer hover:text-primary focus:text-primary outline-primary" />
           </a>
           <a href="https://github.com/Yefee8" target="_blank">
@@ -66,6 +63,8 @@ export default function Home() {
           </div>
         </Link>
       </div>
+
+      <UseAos />
     </main>
   );
 }
