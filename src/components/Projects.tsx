@@ -5,6 +5,7 @@ import Laflaneur from "@/../public/projects/laflaneur.png";
 import Geniusula from "@/../public/projects/geniusula.png";
 import UseAlarm from "@/../public/projects/usealarm.png";
 import AccountHolder from "@/../public/projects/account-holder.png";
+import Saba from "@/../public/projects/saba.png";
 import Link from "next/link";
 
 export default function Projects() {
@@ -73,7 +74,7 @@ export default function Projects() {
       link: "https://www.geniusula.com",
     },
     {
-      title: "Private Project (for now)",
+      title: "Saba's Project(48 Web Apps)",
       tags: [
         "React.js",
         "Next.js",
@@ -81,9 +82,9 @@ export default function Projects() {
         "ShadcnUi",
         "MSW (Mock Service Worker)",
       ],
-      image: "https://placehold.co/350x192/ff9130/fff",
-      role: "front-end lead",
-      link: "https://github.com/Yefee8",
+      image: Saba,
+      role: "front-end developer",
+      link: "https://ankaraspormerkezleri.com",
     },
   ];
 
