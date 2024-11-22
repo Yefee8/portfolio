@@ -20,7 +20,7 @@ export default function Home() {
         </h1>
 
         <div className="text-center font-medium flex justify-center items-center flex-col text-black">
-          As I said, I&apos;m Yavuz and I&apos;m a front-end developer who can
+          I&apos;m a front-end developer who can
           code express & node apps. <br />
           <div className="flex gap-1 text-center items-center">
             So you can say I&apos;m a full-stack{" "}
