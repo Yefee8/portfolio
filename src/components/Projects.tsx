@@ -5,11 +5,52 @@ import Laflaneur from "@/../public/projects/laflaneur.png";
 import Geniusula from "@/../public/projects/geniusula.png";
 import UseAlarm from "@/../public/projects/usealarm.png";
 import AccountHolder from "@/../public/projects/account-holder.png";
+import DankeSeb from "@/../public/projects/dankeseb.jpg"
 import Saba from "@/../public/projects/saba.png";
 import Link from "next/link";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "Saba's Project(48 Web Apps)",
+      tags: [
+        "React.js",
+        "Next.js",
+        "Tailwindcss",
+        "ShadcnUi",
+        "MSW (Mock Service Worker)",
+      ],
+      image: Saba,
+      role: "front-end developer",
+      link: "https://ankaraspormerkezleri.com",
+    },
+    {
+      title: "Poebot.xyz",
+      tags: ["React.js", "Next.js", "Tailwindcss", "Material Ui", "ShadcnUi"],
+      image: Poe,
+      role: "site made by entirely me",
+      link: "https://poebot.xyz",
+    },
+    {
+      title: "Geniusula.com",
+      tags: ["React.js", "Next.js", "Tailwindcss"],
+      image: Geniusula,
+      role: "site made by entirely me",
+      link: "https://www.geniusula.com",
+    },
+    {
+      title: "Danke Seb",
+      tags: [
+        "React.js",
+        "Next.js",
+        "Tailwindcss",
+        "ShadcnUi",
+        "Express.js"
+      ],
+      image: DankeSeb,
+      role: "front-end developer",
+      link: "https://stalk.live",
+    },
     {
       title: "Stalk.live",
       tags: [
@@ -31,7 +72,8 @@ export default function Projects() {
         "React.js",
         "Next.js",
         "PrimeReact",
-        "Primeflex"
+        "Primeflex",
+        "Express.js"
       ],
       image: UseAlarm,
       role: "site and backend made by entirely me",
@@ -42,7 +84,8 @@ export default function Projects() {
       tags: [
         "React.js",
         "Next.js",
-        "Tailwindcss"
+        "Tailwindcss",
+        "Express.js"
       ],
       image: Laflaneur,
       role: "site and design made by entirely me",
@@ -58,33 +101,6 @@ export default function Projects() {
       image: AccountHolder,
       role: "App and design made by entirely me",
       link: "https://github.com/Yefee8/Account-Holder/releases",
-    },
-    {
-      title: "Poebot.xyz",
-      tags: ["React.js", "Next.js", "Tailwindcss", "Material Ui", "ShadcnUi"],
-      image: Poe,
-      role: "site made by entirely me",
-      link: "https://poebot.xyz",
-    },
-    {
-      title: "Geniusula.com",
-      tags: ["React.js", "Next.js", "Tailwindcss"],
-      image: Geniusula,
-      role: "site made by entirely me",
-      link: "https://www.geniusula.com",
-    },
-    {
-      title: "Saba's Project(48 Web Apps)",
-      tags: [
-        "React.js",
-        "Next.js",
-        "Tailwindcss",
-        "ShadcnUi",
-        "MSW (Mock Service Worker)",
-      ],
-      image: Saba,
-      role: "front-end developer",
-      link: "https://ankaraspormerkezleri.com",
     },
   ];
 
