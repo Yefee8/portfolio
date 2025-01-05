@@ -49,7 +49,7 @@ export default function Projects() {
       ],
       image: DankeSeb,
       role: "front-end developer",
-      link: "https://stalk.live",
+      link: "https://dankeseb.vercel.app",
     },
     {
       title: "Stalk.live",
