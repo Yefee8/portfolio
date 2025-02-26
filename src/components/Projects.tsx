@@ -80,7 +80,7 @@ export default function Projects() {
       link: "https://use-alarm.vercel.app",
     },
     {
-      title: "Laflaneur.com",
+      title: "Laflaneur",
       tags: [
         "React.js",
         "Next.js",
@@ -89,7 +89,7 @@ export default function Projects() {
       ],
       image: Laflaneur,
       role: "site and design made by entirely me",
-      link: "https://laflaneur.com",
+      link: "https://laflaneur.vercel.app",
     },
     {
       title: "Account Holder",
