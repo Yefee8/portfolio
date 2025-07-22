@@ -52,7 +52,7 @@ export default function Projects() {
       link: "https://dankeseb.vercel.app",
     },
     {
-      title: "Stalk.live",
+      title: "Stalk.live (closed.)",
       tags: [
         "React.js",
         "Next.js",
