@@ -6,6 +6,7 @@ import Geniusula from "@/../public/projects/geniusula.png";
 import UseAlarm from "@/../public/projects/usealarm.png";
 import AccountHolder from "@/../public/projects/account-holder.png";
 import DankeSeb from "@/../public/projects/dankeseb.jpg"
+import F1PointsSimulator from "@/../public/projects/f1-points-simulator.png"
 import Saba from "@/../public/projects/saba.png";
 import Link from "next/link";
 
@@ -101,6 +102,18 @@ export default function Projects() {
       image: AccountHolder,
       role: "App and design made by entirely me",
       link: "https://github.com/Yefee8/Account-Holder/releases",
+    },
+    {
+      title: "F1 Points Simulator",
+      tags: [
+        "React.js",
+        "Next.js",
+        "Tailwindcss",
+        "ShadcnUi",
+      ],
+      image: F1PointsSimulator,
+      role: "App made by entirely me",
+      link: "https://github.com/Yefee8/f1-points-simulator",
     },
   ];
 
