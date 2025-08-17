@@ -9,6 +9,7 @@ import DankeSeb from "@/../public/projects/dankeseb.jpg"
 import F1PointsSimulator from "@/../public/projects/f1-points-simulator.png"
 import Saba from "@/../public/projects/saba.png";
 import Link from "next/link";
+import Randoovu from "@/../public/projects/randoovu.png";
 
 export default function Projects() {
   const projects = [
@@ -24,6 +25,20 @@ export default function Projects() {
       image: Saba,
       role: "front-end developer",
       link: "https://ankaraspormerkezleri.com",
+    },
+    {
+      title: "Randoovu",
+      tags: [
+        "React.js",
+        "Next.js",
+        "Tailwindcss",
+        "ShadcnUi",
+        "Node.js",
+        "Express.js"
+      ],
+      image: Randoovu,
+      role: "site & back-end made by entirely me",
+      link: "https://randoovu.vercel.app",
     },
     {
       title: "Poebot.xyz",
@@ -49,7 +64,7 @@ export default function Projects() {
         "Express.js"
       ],
       image: DankeSeb,
-      role: "front-end developer",
+      role: "site & back-end made by entirely me",
       link: "https://dankeseb.vercel.app",
     },
     {
@@ -77,7 +92,7 @@ export default function Projects() {
         "Express.js"
       ],
       image: UseAlarm,
-      role: "site and backend made by entirely me",
+      role: "site & back-end made by entirely me",
       link: "https://use-alarm.vercel.app",
     },
     {
@@ -89,7 +104,7 @@ export default function Projects() {
         "Express.js"
       ],
       image: Laflaneur,
-      role: "site and design made by entirely me",
+      role: "site & back-end made by entirely me",
       link: "https://laflaneur.vercel.app",
     },
     {
@@ -100,7 +115,7 @@ export default function Projects() {
         "Tailwindcss"
       ],
       image: AccountHolder,
-      role: "App and design made by entirely me",
+      role: "App made by entirely me",
       link: "https://github.com/Yefee8/Account-Holder/releases",
     },
     {
