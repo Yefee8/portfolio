@@ -10,6 +10,7 @@ import F1PointsSimulator from "@/../public/projects/f1-points-simulator.png"
 import Saba from "@/../public/projects/saba.png";
 import Link from "next/link";
 import Randoovu from "@/../public/projects/randoovu.png";
+import React2DGameEngine from "@/../public/projects/react-2d-game-engine.png"
 
 export default function Projects() {
   const projects = [
@@ -41,6 +42,18 @@ export default function Projects() {
       link: "https://randoovu.vercel.app",
     },
     {
+      title: "React 2D Game Engine",
+      tags: [
+        "React.js",
+        "Next.js",
+        "Tailwindcss",
+        "Express.js"
+      ],
+      image: React2DGameEngine,
+      role: "lib & website made by entirely me",
+      link: "https://github.com/Yefee8/react-2d-game-engine",
+    },
+    {
       title: "Poebot.xyz",
       tags: ["React.js", "Next.js", "Tailwindcss", "Material Ui", "ShadcnUi"],
       image: Poe,
@@ -48,7 +61,7 @@ export default function Projects() {
       link: "https://poebot.xyz",
     },
     {
-      title: "Geniusula.com",
+      title: "Geniusula.com (closed)",
       tags: ["React.js", "Next.js", "Tailwindcss"],
       image: Geniusula,
       role: "site made by entirely me",
@@ -64,7 +77,7 @@ export default function Projects() {
         "Express.js"
       ],
       image: DankeSeb,
-      role: "site & back-end made by entirely me",
+      role: "made by entirely me",
       link: "https://dankeseb.vercel.app",
     },
     {
@@ -92,7 +105,7 @@ export default function Projects() {
         "Express.js"
       ],
       image: UseAlarm,
-      role: "site & back-end made by entirely me",
+      role: "made by entirely me",
       link: "https://use-alarm.vercel.app",
     },
     {
@@ -104,7 +117,7 @@ export default function Projects() {
         "Express.js"
       ],
       image: Laflaneur,
-      role: "site & back-end made by entirely me",
+      role: "made by entirely me",
       link: "https://laflaneur.vercel.app",
     },
     {
@@ -115,7 +128,7 @@ export default function Projects() {
         "Tailwindcss"
       ],
       image: AccountHolder,
-      role: "App made by entirely me",
+      role: "made by entirely me",
       link: "https://github.com/Yefee8/Account-Holder/releases",
     },
     {
@@ -127,7 +140,7 @@ export default function Projects() {
         "ShadcnUi",
       ],
       image: F1PointsSimulator,
-      role: "App made by entirely me",
+      role: "made by entirely me",
       link: "https://github.com/Yefee8/f1-points-simulator",
     },
   ];
