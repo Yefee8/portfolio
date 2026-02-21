@@ -54,7 +54,7 @@ export default function Projects() {
       link: "https://github.com/Yefee8/react-2d-game-engine",
     },
     {
-      title: "Poebot.xyz",
+      title: "Poebot.xyz (closed)",
       tags: ["React.js", "Next.js", "Tailwindcss", "Material Ui", "ShadcnUi"],
       image: Poe,
       role: "site made by entirely me",
@@ -81,7 +81,7 @@ export default function Projects() {
       link: "https://dankeseb.vercel.app",
     },
     {
-      title: "Stalk.live (closed.)",
+      title: "Stalk.live (closed)",
       tags: [
         "React.js",
         "Next.js",
@@ -147,9 +147,9 @@ export default function Projects() {
 
   return (
     <div className="flex justify-center gap-8 flex-col items-center container">
-      <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
+      <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1 max-md:px-4">
         I&apos;ve coded on these projects
-        <div className="sm:w-full w-4/5 h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
+        <div className="w-full max-sm:hidden h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
       </h1>
 
       <div className="w-full flex items-start gap-x-64 gap-y-12 flex-wrap justify-center">

@@ -13,21 +13,21 @@ export default function Repostories() {
       title: "Shoes",
       tags: ["React.js", "Next.js", "Tailwindcss"],
       image: Shoes,
-      description: "An Shoe Market Template.",
+      description: "Shoe Market Template.",
       link: "https://yefee8-shoes.vercel.app/",
     },
     {
       title: "Media",
       tags: ["React.js", "Next.js", "Tailwindcss"],
       image: Media,
-      description: "An Social Media Homepage.",
+      description: "Social Media Homepage.",
       link: "https://media-yefee8.vercel.app",
     },
     {
       title: "SH Shop",
       tags: ["React.js", "Next.js", "Tailwindcss", "ShadcnUi"],
       image: ShShop,
-      description: "An Dashboard and Product Page Template.",
+      description: "Dashboard and Product Page Template.",
       link: "https://yefee8-shop.vercel.app",
     },
     {
@@ -40,7 +40,7 @@ export default function Repostories() {
         "react-scroll-parallax",
       ],
       image: Parallax,
-      description: "An Parallax Single Page Application.",
+      description: "Parallax SPA",
       link: "https://parallax-spa.vercel.app/",
     },
     {
@@ -61,9 +61,9 @@ export default function Repostories() {
 
   return (
     <div className="flex justify-center gap-8 flex-col items-center container">
-      <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1">
+      <h1 className="text-3xl mt-16 text-primary text-center font-bold flex sm:justify-start justify-center relative gap-1 max-md:px-4">
         My Favorite Repostories
-        <div className="sm:w-full w-4/5 h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
+        <div className="w-full max-sm:hidden h-2 bg-second-primary -z-10 rounded-full absolute translate-y-[2px] bottom-0"></div>
       </h1>
 
       <div className="w-full flex items-start gap-x-64 gap-y-12 flex-wrap justify-center">
